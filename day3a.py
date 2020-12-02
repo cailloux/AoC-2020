@@ -1,1 +1,5 @@
-# This is a placeholder for the 12/3 Problem 1
+f = open("day3.in","r")
+
+# This is where the code goes...
+
+f.close()

@@ -2,8 +2,8 @@ f = open("day3.in","r")
 
 x = y = 0
 trees = 0
-xStep = 1
-yStep = 3
+xStep = 2
+yStep = 1
 i = 0
 
 def hitTheTree(line, position):
@@ -16,6 +16,9 @@ def hitTheTree(line, position):
 for line in f:
 	# Skip the first line, because we're stepping down and not considering it
 	if i == 0:
+		i += 1
+		continue
+	elif i % xStep != 0:
 		i += 1
 		continue
 

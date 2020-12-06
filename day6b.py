@@ -5,12 +5,10 @@ part2 = 0
 for partyAnswers in customsGroupAnswers:
     unique = {}
     partyCount = len(partyAnswers.splitlines())
-    for char in partyAnswers[::]:
+    for char in partyAnswers:
         if char not in unique and char != '\n':
             unique[char] = 1
-        elif char == '\n':
-            pass
-        else:
+        elif char != '\n':
             unique[char] += 1
     for x in unique:
         if partyCount == unique[x]:

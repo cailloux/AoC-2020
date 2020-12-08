@@ -1,6 +1,6 @@
 import re
 
-customsGroupAnswers = open("day6.in", "r").read().split("\n\n")
+customsGroupAnswers = open("./input/day6.in", "r").read().split("\n\n")
 
 # customsGroupAnswers = ['abc', 'a\nb\nc\n', 'ab\nac\n', 'a\na\na\na\n', 'b\n']
 

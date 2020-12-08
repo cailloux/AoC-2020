@@ -1,4 +1,4 @@
-f = open("day2.in","r")
+f = open("./input/day2.in","r")
 
 
 validCount = 0

@@ -1,4 +1,4 @@
-f = open('day5.in', 'r')
+f = open('./input/day5.in', 'r')
 
 def getSeatId(row, column):
     i = 0

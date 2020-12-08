@@ -1,6 +1,6 @@
 targetValue = 2020
 
-f = open("day1.in","r")
+f = open("./input/day1.in","r")
 expenses = []
 
 for x in f:

@@ -2,7 +2,7 @@ targetValue = 2020
 expenses = []
 total = 0
 
-f = open("day1.in","r")
+f = open("./input/day1.in","r")
 
 for x in f:
 	x = x.rstrip()

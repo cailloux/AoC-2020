@@ -1,4 +1,4 @@
-f = open("day3.in","r")
+f = open("./input/day3.in","r")
 
 x = y = 0
 trees = 0

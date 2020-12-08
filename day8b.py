@@ -1,6 +1,6 @@
 import copy
 
-with open('day8.in') as f:
+with open('./input/day8.in') as f:
     program = [line.strip() for line in f]
 
 def execute(program):

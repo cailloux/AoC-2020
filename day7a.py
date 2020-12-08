@@ -1,6 +1,6 @@
 import re
 
-f = open("day7.in", "r")
+f = open("./input/day7.in", "r")
 
 TARGET_COLOR="shiny gold"
 rules = []

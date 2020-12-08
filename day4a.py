@@ -1,4 +1,4 @@
-f = open("day4.in","r")
+f = open("./input/day4.in","r")
 
 class Credentials():
 

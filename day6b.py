@@ -1,4 +1,4 @@
-customsGroupAnswers = open("day6.in", "r").read().split("\n\n")
+customsGroupAnswers = open("./input/day6.in", "r").read().split("\n\n")
 
 part2 = 0
 
